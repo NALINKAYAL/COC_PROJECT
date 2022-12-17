@@ -1,0 +1,12 @@
+body {
+background-image: url("book.png");
+background-size:920px;
+box-sizing:border-box;
+ font-family:sans-serif;
+}
+
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: yellow
+}
