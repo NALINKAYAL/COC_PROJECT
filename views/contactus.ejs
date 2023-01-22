@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('partials/head') %>
+  <%- include('partials/head') %>
+  <link rel="stylesheet" href="/contactus.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+    rel="stylesheet"
+  />
 
   <body>
     <%- include('partials/navbar') %>
-      <h1>CONTACT DETAILS</h1>
-      <b>
-        <ul>
-          <li>Dhruv Patel <br>Email: dvpatel_b21@el.vjti.ac.in<br>Contact no. 9867838790</li>
-          <li>Nalin Kayal <br>Email: nvkayal_b21@el.vjti.ac.in <br>Contact no. 9819785437></li>
-          <li>Shubham Sale <br>Email: srsale_b21@el.vjti.ac.in <br>Contact no. 8169602063></li>
-          <li>Sachin Vishvakarma <br>Email: ssvishvakarma_b21@el.vjti.ac.in <br>Contact no. 8369184472></li>
+    <h1>CONTACT DETAILS</h1>
 
-
-        </ul>
-      </b>
+    <div class="container">
+      <form action="/contact" method="post" class="form">
+        <input
+          id="name"
+          type="text"
+          class="myInput"
+          name="name"
+          placeholder="Enter your name.."
+        />
+        <input
+          id="phone"
+          type="phone"
+          class="myInput"
+          name="phone"
+          placeholder="Enter your contact no.."
+        />
+        <input
+          id="email"
+          type="email"
+          class="myInput"
+          name="email"
+          placeholder="Enter your email.."
+        />
+        <input
+          id="suggestion"
+          type="text"
+          name="firstname"
+          class="myInput"
+          placeholder="Enter your concern.."
+        />
+        <button class="btn">Submit</button>
+      </form>
+    </div>
   </body>
-
 </html>
