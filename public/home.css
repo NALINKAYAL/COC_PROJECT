@@ -1,24 +1,25 @@
 body {
-    background-image: url("book.png");
+    background-color: rgba(1, 0, 5, 0.3);
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-.transparent p {
-    background-color: rgba(255, 255, 255, 0.65);
-    padding: 150px;
-    text-align: center;
-    font-family: arial;
-    font-size: 35px;
-    position: sticky
-}
-
-.transparent {
-    margin-top: 150px;
+.content p {
+    color: white;
+    margin-right: 250px;
+    padding: 15px;
+    margin-left: 700px;
+    margin-top: 175px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1.2px;
 }
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: yellow
+    background-color: yellow;
 }
