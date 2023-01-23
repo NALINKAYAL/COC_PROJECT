@@ -1,74 +1,27 @@
 body {
-<<<<<<< HEAD
-    background-image: url("book.png");
-    background-size: 1500px;
-=======
     background-color: rgba(1, 0, 5, 0.3);
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
->>>>>>> refs/remotes/origin/master
     box-sizing: border-box;
     font-family: sans-serif;
-    background: center / contain no-repeat url("book.png");
-    
-        
 }
 
-<<<<<<< HEAD
-.transparent  {
-    background-color: transparent;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    font-family: 'Fredoka One', cursive
-    
-}
 
-.transparent  {
-        position: relative;
-        height: 130vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-}
-p {
-    position: relative;
-    color: #060505;
-    font-size: 3rem;
-    line-height: 1.9;
-    text-align: center;
 
-=======
 .content p {
     color: white;
     margin-right: 250px;
-    padding: 15px;
+    padding: -7px;
     margin-left: 700px;
-    margin-top: 175px;
+    margin-top: 109px;
     font-family: 'Kanit', sans-serif;
     font-size: 40px;
     letter-spacing: 1.2px;
->>>>>>> refs/remotes/origin/master
 }
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-<<<<<<< HEAD
-    background-color: yellow
-}
-p {
-    margin-top: -162px;
-    margin-bottom: 1rem;
-    
-}
-
-
-=======
     background-color: yellow;
 }
->>>>>>> refs/remotes/origin/master

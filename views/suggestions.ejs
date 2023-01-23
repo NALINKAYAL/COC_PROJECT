@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('partials/head') %>
-
+  <%- include('partials/head') %>
+  <link rel="stylesheet" href="sug.css" />
   <body>
     <%- include('partials/navbar') %>
-      <form action="" class="form">
-        <p>ANY SUGGESTIONS?
-        <p>
-          <textarea name='suggestions' rows="8" cols="50"
-            placeholder="Type your suggestions here"></textarea><br><br><br>
-        <p>ANY BOOKS THAT YOU WANT US TO UPLOAD?</p>
-        <textarea name='bookname' rows="1" cols="50" placeholder="Name of Book"></textarea><br><br><br>
-        <p>ENTER THE NAME OF AUTHOR</p>
-        <textarea name='bookauthor' rows="1" cols="50" placeholder="Name of author"></textarea>
-      </form>
+    <h1>HAVE ANY SUGGESTIONS???</h1>
+    <form action="" class="form">
+      <p>
+        <textarea
+          id="suggestions"
+          name="suggestions"
+          rows="8"
+          cols="50"
+          placeholder="Type your suggestions here"
+        ></textarea>
+      </p>
+      <h3>ANY BOOKS THAT YOU WANT US TO UPLOAD?</h3>
+      <textarea
+        id="bookname"
+        name="bookname"
+        rows="1"
+        cols="50"
+        placeholder="Name of Book"
+      ></textarea
+      ><br />
+      <h3>ENTER THE NAME OF AUTHOR</h3>
+      <textarea
+        id="author"
+        name="bookauthor"
+        rows="1"
+        cols="50"
+        placeholder="Name of author"
+      ></textarea>
+    </form>
   </body>
-
 </html>

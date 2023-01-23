@@ -3,9 +3,10 @@
     margin: 0
 }
 
-.menu-bar{
-    background:rgb(92, 159, 209);
+.menu-bar {
+    font-family: 'Mukta', sans-serif;
     text-align: center;
+    background-color: aqua;
 }
 
 .menu-bar ul {
@@ -25,17 +26,18 @@
 .menu-bar ul li a {
     padding: 10px;
     text-decoration: none;
-    color:black;
+    color: rgb(16, 12, 12);
 }
 
 .menu-bar ul li a:hover {
     background-color: white;
-    color: black;
+    color: rgb(204, 212, 57);
     border-radius: 40px;
 }
 
 .menu-bar .fa-solid {
     margin-right: 8px;
+    
 }
 
 .sub-menu-1 {
@@ -45,7 +47,7 @@
 .menu-bar ul li:hover .sub-menu-1 {
     display: block;
     position: absolute;
-    background-color: black;
+    background-color: aqua;
     margin-top: 15px;
     margin-left: -13px;
 

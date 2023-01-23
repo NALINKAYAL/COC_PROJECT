@@ -1,7 +1,31 @@
-<%- include('partials/head')  %> 
+<%- include('partials/head')  %>
+<link rel="stylesheet" href="streams.css"> 
 <body>
-     <%- include('partials/navbar') %>
-    <h1>STREAMS</h1>
-    
+    <%- include('partials/navbar') %>
+    <form action="/action_page.php" class="form">
+    <label for="COLLEGES">Choose a college:</label>
+    <select name="cars" id="COLLEGES">
+    <option value="VJTI">VJTI</option>
+    <option value="DJ SANGHVI">DJ SANGHVI</option>
+    <option value="SPIT">SPIT</option>
+    <option value="COEP">COEP</option>
+    </select>
+    </form>
+    <br>
+     <h3>Recommended books</h3>
+      <div  class ="Recommendedbooks">
+        <div >
+            <img class ="R1" src="/R1.png">
+        </div>
+      </div>
+       
+      <a href="https://drive.google.com/file/d/1WkPyzI4Puibcp1dseK_1ZsW7uD8E4u6W/view?usp=sharing"><h6 class="Book1">APPLIED MATHEMATICS 1</h6></a>
+      <br>
+     
+      <div >
+         <img class ="R2" src="/R2.png">
+      </div>
+     <a href="Engineering_ChemistryJain_Jain_Bookmarked.pdf"><h6>Engineering_ChemistryJain_Jain_</h6></a>
+ 
 </body>
 </html>
